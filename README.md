@@ -88,7 +88,7 @@ npm run start
 This will start the React frontend.
 
 ## Access the Application
-Once both the backend and frontend are running:
-Backend: The backend will be accessible at http://localhost:1000.
-Frontend: The frontend will be accessible at http://localhost:3000.
+Once both the backend and frontend are running:<br/>
+Backend: The backend will be accessible at http://localhost:1000.<br/>
+Frontend: The frontend will be accessible at http://localhost:3000.<br/>
 You can now open your browser and start using the Task Manager Application.
