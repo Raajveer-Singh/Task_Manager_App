@@ -17,7 +17,7 @@ The *Task Manager Application* is a comprehensive productivity tool designed to 
 - *Backend*: Node.js with Express.js
 - *Database*: MongoDB
 - *Authentication*: JSON Web Tokens (JWT)
-- *Styling*: CSS
+- *Styling*: Tailwind CSS
 - *API Testing*: ThunderAPI (for backend API testing)
 
 ## Prerequisites
@@ -75,8 +75,8 @@ Navigate to the root of the server directory and run:
 ```bash
 cd backend
 nodemon app.js
-This will start the backend server.
 ```
+This will start the backend server.
 
 ### Start the Frontend:
 Next, navigate to the client directory and run:
@@ -84,8 +84,9 @@ Next, navigate to the client directory and run:
 ```bash
 cd frontend
 npm run start
-This will start the React frontend.
 ```
+This will start the React frontend.
+
 ## Access the Application
 Once both the backend and frontend are running:
 Backend: The backend will be accessible at http://localhost:1000.
