@@ -42,15 +42,18 @@ git clone https://github.com/Rajveer17Singh/Task_Manager_App.git
 Install dependencies for both the client and server:
 
 For the Backend (server):
-Navigate to the server folder and install the required dependencies:
+Navigate to the backend folder and install the required dependencies:
 
 ```bash
+cd backend
 npm install
+```
+
 For the Frontend (client):
 Navigate to the client folder and install the necessary dependencies:
-```
+
 ```bash
-cd client
+cd frontend
 npm install
 ```
 
@@ -58,7 +61,7 @@ npm install
 In the server folder, create a .env file (if not already provided) with the following environment variables:
 
 ``` .env
-PORT = 9000
+PORT = 1000
 DB_URL = "mongodb+srv://raj123:raj123@cluster0.7gtum.mongodb.net/TaskManagerApp"
 JWT_SECRET = "rajTM"
 ```
@@ -66,19 +69,21 @@ JWT_SECRET = "rajTM"
 ## Start the Application
 Now you can start both the backend and frontend servers.
 
-Start the Backend:
+### Start the Backend:
 Navigate to the root of the server directory and run:
 
 ```bash
-npm run dev
+cd backend
+nodemon app.js
 This will start the backend server.
 ```
-## Start the Frontend:
+
+### Start the Frontend:
 Next, navigate to the client directory and run:
 
 ```bash
-cd client
-npm start
+cd frontend
+npm run start
 This will start the React frontend.
 ```
 ## Access the Application
