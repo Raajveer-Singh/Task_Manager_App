@@ -91,4 +91,7 @@ This will start the React frontend.
 Once both the backend and frontend are running:<br/>
 Backend: The backend will be accessible at http://localhost:1000.<br/>
 Frontend: The frontend will be accessible at http://localhost:3000.<br/>
-You can now open your browser and start using the Task Manager Application.
+You can now open your browser and start using the Task Manager Application.<br/>
+
+![Signup Page](https://github.com/Raajveer-Singh/Task_Manager_App/blob/master/frontend/Screenshot%202024-11-29%20163831.png)
+
